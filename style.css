@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 10px 0px;
+  }
+
+  .navbar-container div img {
+    width: 120px;
+  }
+    
+  .navbar-container div .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .navbar-container div .list .list-item {
+    margin: 0 20px;
+    font-size: 18px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+  }
+  
+  .navbar-container div .list .list-item:hover {
+    border-bottom: 2px solid black;
+    border-width: 3px;
+  }
+  
+  .navbar-container .button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-container .button-group .nav-button {
+    border: 2px solid black;
+    background: transparent;
+    padding: 5px 32px 2px 32px;
+    margin-left: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #767676;
+  }
+  .navbar-container .button-group .nav-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  .navbar-container .button-group .search-icon {
+    margin-top: 5px;
+  }
+  .navbar-container .button-group .search-icon svg {
+    width: 30px;
+    height: 22px;
+  }
+  
+  .hero-container {
+    position: relative;
+    display: flex;
+  }
+  
+  .hero-container span.square img {
+    position: absolute;
+    left: 19%;
+    top: 47%;
+    width: 350px;
+    z-index: -1;
+  }
+  .hero-container span.star img {
+    position: absolute;
+    left: 75%;
+    top: 22%;
+    width: 50px;
+  }
+  
+  .hero-container span.star2 img {
+    position: absolute;
+    left: 45%;
+    top: 83%;
+    width: 48px;
+  }
+  
+  .hero-container span.globe img {
+    position: absolute;
+    left: 53%;
+    top: 120px;
+    width: 50px;
+}
+
+
+  .hero-container div > img {
+    width: 450px;
+    margin: 60px 80px;
+  }
+
+  .hero-container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+    margin-left: 80px;
+  }
+  
+  .hero-container .hero-container-right .hero-heading {
+    font-size: 50px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 700;
+    margin: 0px 30px 10px 30px;
+  }
+  
+  .hero-container .hero-container-right .hero-description {
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 20px 30px 25px 30px;
+    max-width: 68ch;
+    text-align: center;
+    color: #767676;
+  }
+  
+  .hero-container .hero-container-right div .button-email {
+    border: 2px solid black;
+    font-size: 16px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    padding: 3px 20px;
+    margin-right: 8px;
+    border-radius: 8px;
+    background: transparent;
+    color: #767676;
+  }
+  
+  .hero-container .hero-container-right div .button-email:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .hero-container .hero-container-right div .button-join {
+    border: 2px solid #000000;
+    font-size: 16px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    margin-right: 8px;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #fdfdfd;
+  }
+  
+  .hero-container .hero-container-right div .button-join:hover {
+    color: #767676;
+    background-color: #ffffff;
+  }
+  
+  .hero-container-right .contact-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-container .hero-container-right div .contact-heading {
+    margin: 20px 20px 10px 100px;
+    color: #767676;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+  }
+  
+  .hero-container-right div div.icons span img {
+    width: 50px;
+    margin: 5px;
+  } 
